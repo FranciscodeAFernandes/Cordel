@@ -1,1 +1,46 @@
 @charset "UTF-8";
+@font-face {
+    font-family: ScriptMail;
+    src: url(Fontes/Housemail\ Script\ Trial.otf) format('opentype');
+}
+body {
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 700px;
+    margin: auto;
+}
+
+main {
+    background-color: rgb(226, 226, 226);
+    width: 720px;
+    margin: auto;
+    padding: 0px;
+}
+
+section {
+    white-space: pre-line;
+    height: 400px;
+    font-family: ScriptMail, sans-serif, serif;
+    font-size: 40px;
+    padding-bottom: 100px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#img1 {
+    width: 720px;
+}
+
+section > p {
+    padding-bottom: ;
+}
