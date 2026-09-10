@@ -1,0 +1,65 @@
+@charset "UTF-8";
+@font-face {
+    font-family: RustedOrlando;
+    src: url(Fontes/Rusted\ Orlando\ Sans\ Demo.otf) format(opentype);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 3vw;
+}
+
+header {
+    font-family: RustedOrlando, sans-serif, serif;
+    font-size: x-large;
+    letter-spacing: 3px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    letter-spacing: 0px;
+}
+
+.imagem {
+    background-color: rgba(0, 0, 0, 0.315);
+    background-attachment: fixed;
+}
+
+section.imagem {
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: inset 15px 20px 40px;
+}
+
+section > p.normal {
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
+section.imagem > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.219);
+}
+
+#img01 {
+    background-image: url(imagens/Red\ Flower.jpg);
+}
+
+#img02 {
+    background-image: url(imagens/Gray\ ambient\ flower.jpg);
+}
+
+#img03 {
+    background-image: url(imagens/wet\ flower.jpg);
+}
+
