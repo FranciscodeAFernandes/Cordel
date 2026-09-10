@@ -4,13 +4,20 @@
     src: url(Fontes/Rusted\ Orlando\ Sans\ Demo.otf) format(opentype);
 }
 
+@font-face {
+    font-family: ImFell;
+    src: url(Fontes/FeDPit2.ttf) format(truetype);
+}
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
 body {
-    font-size: 3vw;
+    font-size: 3.5vw;
+    font-family: ImFell, sans-serif, serif;
+    font-size: 60px;
 }
 
 header {
@@ -38,7 +45,7 @@ section.imagem {
     padding-bottom: 20vh;
     background-size: cover;
     background-position: center center;
-    box-shadow: inset 15px 20px 40px;
+    box-shadow: inset 10px 5px 40px;
 }
 
 section > p.normal {
@@ -48,7 +55,8 @@ section > p.normal {
 
 section.imagem > p {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.219);
+    background-color: rgba(0, 0, 0, 0.651);
+    color: white;
 }
 
 #img01 {
